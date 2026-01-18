@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import profileImg from "../images/loid.png";
 
 const Hero: React.FC = () => {
   return (
@@ -94,7 +95,7 @@ const Hero: React.FC = () => {
               {/* Image Container */}
               <div className="relative z-10 w-full h-full overflow-hidden rounded-[2rem] bg-[#111] border border-white/10 shadow-2xl">
                 <img
-                  src="src/images/loid.png"
+                  src={profileImg}
                   alt="Profissional"
                   className="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-700 hover:scale-105"
                   style={
