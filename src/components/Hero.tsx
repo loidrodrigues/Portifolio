@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
               {/* Image Container */}
               <div className="relative z-10 w-full h-full overflow-hidden rounded-[2rem] bg-[#111] border border-white/10 shadow-2xl">
                 <img
-                  src="/images/loid.png"
+                  src="src/images/loid.png"
                   alt="Profissional"
                   className="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-700 hover:scale-105"
                   style={
